@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".fragmentoperations.MainFragment">
+
+    <TextView
+        android:id="@+id/binfo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/stepProgress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/stepProgress"
+        android:layout_width="364dp"
+        android:layout_height="360dp"
+        android:layout_margin="10dp"
+        app:cpb_background_progressbar_color="#0B6B83"
+        app:cpb_background_progressbar_width="25dp"
+        app:cpb_progress_direction="to_right"
+        app:cpb_progress_max="6000"
+        app:cpb_progressbar_color="#48C5EC"
+        app:cpb_progressbar_width="15dp"
+        app:cpb_round_border="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/step_info"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_margin="60dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/stepProgress"
+        app:layout_constraintEnd_toEndOf="@+id/stepProgress"
+        app:layout_constraintStart_toStartOf="@+id/stepProgress"
+        app:layout_constraintTop_toTopOf="@+id/stepProgress" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stepProgress"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/walk" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

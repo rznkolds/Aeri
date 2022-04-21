@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Zhuinden:fragmentviewbindingdelegate-kt:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5775623bd59f6456ca2263292b6d5a05/transformed/jetified-fragmentviewbindingdelegate-kt-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e298ee6f653cf11b7f6556ceda1441b7/transformed/jetified-fragmentviewbindingdelegate-kt-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bcea5422fd978ccd959d182acd76605f/transformed/jetified-fragmentviewbindingdelegate-kt-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bcea5422fd978ccd959d182acd76605f/transformed/jetified-fragmentviewbindingdelegate-kt-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bcea5422fd978ccd959d182acd76605f/transformed/jetified-fragmentviewbindingdelegate-kt-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Zhuinden/fragmentviewbindingdelegate-kt/1.0.0/f4613973605de9a0b49895f5e0446e3262e62cda/fragmentviewbindingdelegate-kt-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Zhuinden/fragmentviewbindingdelegate-kt/1.0.0/8b3f4333044860d3c39f9b1d3b4449b78d3e702d/fragmentviewbindingdelegate-kt-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

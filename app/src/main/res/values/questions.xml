@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="quest_1">Telefonu sallarken sayıyor mu ?</string>
+    <string name="quest_2">Bu durumlarda cihaz yerleşik sensör sebebi ile adım olarak sayabilir ancak bu bir hata olduğu anlamına gelmemekle birlikte daha iyi bir hassasiyet deneyimi için çalışmaya devam edeceğiz . </string>
+    <string name="quest_3">Adım sayım doğruluğu ne kadar ? </string>
+    <string name="quest_4">Genelde adımlarınızı saymak için yerleşik sensörü kullanırız .\nBu nedenle cihaz sensörü ne kadar iyi olursa o kadar doğru bir tespit sunabiliriz .</string>
+    <string name="quest_5">Uygulama ne kadar güvenilir ?</string>
+    <string name="quest_6">Sadece sensör tarafından gelen adım verilerini okuruz işte bu sizi uygulama içinde %100 güvenli yapmaktadır .</string>
+    <string name="quest_7">Yerleştirme önerisi nedir ?</string>
+    <string name="quest_8">Doğru bir sayım için cihazı cebinize , çantanıza veya vucudunuza yakın bir yere koymanızı öneririz .</string>
+
+</resources>
